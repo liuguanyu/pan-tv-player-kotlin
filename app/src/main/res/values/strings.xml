@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">百度网盘播放器</string>
+
+    <!-- Login -->
+    <string name="login_title">扫码登录</string>
+    <string name="login_hint">使用手机百度网盘APP扫描二维码</string>
+    <string name="login_scanning">等待扫描...</string>
+    <string name="login_success">登录成功</string>
+    <string name="login_failed">登录失败，请重试</string>
+    <string name="login_expired">登录已过期，请重新登录</string>
+
+    <!-- Main -->
+    <string name="main_title">百度网盘播放器</string>
+    <string name="main_my_playlists">我的播放列表</string>
+    <string name="main_quick_actions">快速操作</string>
+    <string name="main_recent_plays">最近播放</string>
+    <string name="recent_tasks">最近任务</string>
+    <string name="main_browse_files">浏览文件</string>
+    <string name="main_create_playlist">创建播放列表</string>
+    <string name="main_no_playlists">暂无播放列表，点击创建创建第一个播放列表</string>
+    <string name="thumbnail">缩略图</string>
+
+    <!-- Playback -->
+    <string name="playback_title">播放</string>
+    <string name="playback_pause">暂停</string>
+    <string name="playback_play">播放</string>
+    <string name="playback_next">下一个</string>
+    <string name="playback_previous">上一个</string>
+    <string name="playback_stop">停止</string>
+
+    <!-- Settings -->
+    <string name="settings_title">设置</string>
+    <string name="settings_image_effects">图片特效</string>
+    <string name="settings_animation_duration">动画时长</string>
+    <string name="settings_display_duration">展示时长</string>
+    <string name="settings_location_display">显示拍摄地点</string>
+    <string name="settings_background_mode">背景模式</string>
+    <string name="settings_h265_playback">H.265播放优化</string>
+    <string name="settings_enable_h265">启用H.265优化</string>
+    <string name="settings_auto_transcode">自动转码（仅在充电时）</string>
+    <string name="settings_require_charging">要求充电</string>
+    <string name="settings_transcode_quality">转码质量</string>
+
+    <!-- Image Effects -->
+    <string name="effect_fade">淡入淡出</string>
+    <string name="effect_ease">缓动</string>
+    <string name="effect_bounce">跳动</string>
+    <string name="effect_slide">滑动</string>
+    <string name="effect_rotate">旋转</string>
+    <string name="effect_emerge">浮现</string>
+
+    <!-- Background Modes -->
+    <string name="bg_black">纯黑背景</string>
+    <string name="bg_dominant">主色调背景</string>
+    <string name="bg_blur">毛玻璃背景</string>
+
+    <!-- File Browser -->
+    <string name="filebrowser_title">文件浏览</string>
+    <string name="filebrowser_select">选择</string>
+    <string name="filebrowser_multiselect">多选模式</string>
+    <string name="filebrowser_confirm">确认选择</string>
+    <string name="filebrowser_all_files">全部文件</string>
+    <string name="filebrowser_filtering">已过滤 %1$d 个非媒体文件</string>
+
+    <!-- Errors -->
+    <string name="error_network">网络连接失败</string>
+    <string name="error_file_not_found">文件不存在</string>
+    <string name="error_playback_failed">播放失败</string>
+    <string name="error_storage_full">存储空间不足</string>
+    <string name="error_unsupported_format">不支持的格式</string>
+
+    <!-- Hints -->
+    <string name="hint_press_menu">按菜单键打开设置</string>
+    <string name="hint_use_remote">请使用遥控器操作</string>
+
+    <!-- Background Mode Arrays -->
+    <string-array name="background_mode_entries">
+        <item>纯黑色</item>
+        <item>主色调</item>
+        <item>毛玻璃</item>
+    </string-array>
+    <string-array name="background_mode_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <!-- H.265 Quality Arrays -->
+    <string-array name="h265_quality_entries">
+        <item>720p</item>
+        <item>1080p</item>
+    </string-array>
+    <string-array name="h265_quality_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+</resources>

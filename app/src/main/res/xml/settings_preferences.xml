@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 图片特效设置 -->
+    <PreferenceCategory android:title="图片展示特效">
+
+        <CheckBoxPreference
+            android:key="effect_fade"
+            android:title="淡入淡出"
+            android:summary="" />
+
+        <CheckBoxPreference
+            android:key="effect_ease"
+            android:title="缓动"
+            android:summary="" />
+
+        <CheckBoxPreference
+            android:key="effect_float"
+            android:title="浮现"
+            android:summary="" />
+
+        <CheckBoxPreference
+            android:key="effect_bounce"
+            android:title="跳动"
+            android:summary="" />
+
+        <CheckBoxPreference
+            android:key="effect_blinds"
+            android:title="百叶窗"
+            android:summary="" />
+
+        <CheckBoxPreference
+            android:key="effect_zoom"
+            android:title="放大"
+            android:summary="" />
+
+        <CheckBoxPreference
+            android:key="effect_rotate"
+            android:title="旋转"
+            android:summary="" />
+
+        <CheckBoxPreference
+            android:key="effect_slide"
+            android:title="两侧划入"
+            android:summary="" />
+
+        <CheckBoxPreference
+            android:key="effect_random"
+            android:title="随机"
+            android:summary="从其他特效中随机选择" />
+    </PreferenceCategory>
+
+    <!-- 动画时长设置 -->
+    <PreferenceCategory android:title="动画设置">
+
+        <SeekBarPreference
+            android:key="transition_duration"
+            android:title="动画时长"
+            android:summary="动画过渡时间"
+            android:defaultValue="1"
+            android:max="3"
+            android:min="1"
+            android:seekBarIncrement="1"
+            android:widgetLayout="@layout/seekbar_preference" />
+
+        <SeekBarPreference
+            android:key="display_duration"
+            android:title="展示时长"
+            android:summary="图片显示时间"
+            android:defaultValue="10"
+            android:max="30"
+            android:min="3"
+            android:seekBarIncrement="1"
+            android:widgetLayout="@layout/seekbar_preference" />
+    </PreferenceCategory>
+
+    <!-- 背景模式设置 -->
+    <PreferenceCategory android:title="背景模式">
+
+        <ListPreference
+            android:key="background_mode"
+            android:title="背景模式"
+            android:summary="选择图片背景模式"
+            android:entries="@array/background_mode_entries"
+            android:entryValues="@array/background_mode_values"
+            android:defaultValue="1" />
+    </PreferenceCategory>
+
+    <!-- 地点显示设置 -->
+    <PreferenceCategory android:title="显示设置">
+
+        <SwitchPreferenceCompat
+            android:key="show_location"
+            android:title="显示拍摄地点"
+            android:summary="在图片上显示拍摄地点信息"
+            android:defaultValue="true" />
+    </PreferenceCategory>
+
+    <!-- H.265播放设置 -->
+    <PreferenceCategory android:title="H.265播放设置">
+
+        <SwitchPreferenceCompat
+            android:key="h265_enabled"
+            android:title="启用H.265优化"
+            android:summary="启用H.265编解码器优化播放性能"
+            android:defaultValue="true" />
+
+        <SwitchPreferenceCompat
+            android:key="h265_auto_transcode"
+            android:title="自动转码（仅在充电时）"
+            android:summary="在设备充电时自动将视频转码为H.265格式"
+            android:defaultValue="true" />
+
+        <SwitchPreferenceCompat
+            android:key="h265_require_charging"
+            android:title="要求充电"
+            android:summary="仅在设备充电时播放H.265视频"
+            android:defaultValue="true" />
+
+        <ListPreference
+            android:key="h265_quality"
+            android:title="转码质量"
+            android:summary="选择H.265转码的分辨率质量"
+            android:entries="@array/h265_quality_entries"
+            android:entryValues="@array/h265_quality_values"
+            android:defaultValue="0" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
