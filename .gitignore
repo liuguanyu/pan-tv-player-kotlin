@@ -1,0 +1,954 @@
+# Gradle files
+.gradle/
+/build/
+/.gradle/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Android
+out/
+app/release/
+app/debug/
+
+# Kotlin
+*.kt
+*.kts
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs and databases
+*.log
+*.db
+
+# Keystore files
+*.jks
+*.keystore
+
+# Local configuration files
+local.properties
+
+# Build outputs
+*.apk
+*.aab
+*.jar
+
+# Coverage reports
+coverage/
+
+# Android Studio cache
+.caches/
+
+# NDK
+jni/
+
+# Provisioning profiles
+*.mobileprovision
+*.p12
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Kotlin Multiplatform
+kotlinx/
+
+# LeakCanary
+leakcanary/
+
+# Firebase
+firebase-debug.log
+
+# Detekt
+*.detekt
+
+# Kotlin Multiplatform Mobile
+kmm/
+
+# AndroidX Test
+androidx-test/
+
+# Compose Multiplatform
+compose-multiplatform/
+
+# SDK
+sdk/
+
+# Provisioning
+provisioning/
+
+# Xcode
+*.xcworkspace
+*.xcodeproj
+
+# Swift
+*.swiftmodule
+
+# React Native
+node_modules/
+
+# Python
+__pycache__/
+
+# Docker
+docker/
+
+# Other
+*.swp
+*.swo
+*.swn
+
+# Build files
+*.class
+*.jar
+*.war
+*.ear
+
+# Backup files
+*~
+
+# Temporary files
+*.tmp
+*.temp
+
+# Log files
+*.log
+
+# Backup
+*.bak
+
+# Package files
+*.zip
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# IDE specific
+.vscode/
+
+# Android Lint
+lint-results.html
+
+# Crashlytics
+fabric/
+
+# Crashlytics
+firebase-crashlytics/
+
+# Firebase Performance
+firebase-performance/
+
+# Firebase App Distribution
+firebase-app-distribution/
+
+# Firebase Hosting
+firebase.json
+
+# Firebase Remote Config
+firebase-remote-config/
+
+# Firebase Analytics
+firebase-analytics/
+
+# Firebase Cloud Messaging
+firebase-messaging/
+
+# Firebase Authentication
+firebase-auth/
+
+# Firebase Firestore
+firebase-firestore/
+
+# Firebase Realtime Database
+firebase-database/
+
+# Firebase Storage
+firebase-storage/
+
+# Firebase Functions
+firebase-functions/
+
+# Firebase ML
+firebase-ml/
+
+# Firebase Invites
+firebase-invites/
+
+# Firebase Dynamic Links
+firebase-dynamic-links/
+
+# Firebase Test Lab
+firebase-test-lab/
+
+# Firebase App Indexing
+firebase-app-indexing/
+
+# Firebase Performance Monitoring
+firebase-performance-monitoring/
+
+# Firebase App Check
+firebase-app-check/
+
+# Firebase Analytics for iOS
+firebase-analytics-ios/
+
+# Firebase Analytics for Android
+firebase-analytics-android/
+
+# Firebase Analytics for Web
+firebase-analytics-web/
+
+# Firebase Analytics for Flutter
+firebase-analytics-flutter/
+
+# Firebase Analytics for Unity
+firebase-analytics-unity/
+
+# Firebase Analytics for React Native
+firebase-analytics-react-native/
+
+# Firebase Analytics for Cordova
+firebase-analytics-cordova/
+
+# Firebase Analytics for Xamarin
+firebase-analytics-xamarin/
+
+# Firebase Analytics for Unity
+firebase-analytics-unity/
+
+# Firebase Analytics for React Native
+firebase-analytics-react-native/
+
+# Firebase Analytics for Cordova
+firebase-analytics-cordova/
+
+# Firebase Analytics for Xamarin
+firebase-analytics-xamarin/
+
+# Firebase Analytics for Unity
+firebase-analytics-unity/
+
+# Firebase Analytics for React Native
+firebase-analytics-react-native/
+
+# Firebase Analytics for Cordova
+firebase-analytics-cordova/
+
+# Firebase Analytics for Xamarin
+firebase-analytics-xamarin/
+
+# Firebase Analytics for Unity
+firebase-analytics-unity/
+
+# Firebase Analytics for React Native
+firebase-analytics-react-native/
+
+# Firebase Analytics for Cordova
+firebase-analytics-cordova/
+
+# Firebase Analytics for Xamarin
+firebase-analytics-xamarin/
+
+# Firebase Analytics for Unity
+firebase-analytics-unity/
+
+# Firebase Analytics for React Native
+firebase-analytics-react-native/
+
+# Firebase Analytics for Cordova
+firebase-analytics-cordova/
+
+# Firebase Analytics for Xamarin
+firebase-analytics-xamarin/
+
+# Firebase Analytics for Unity
+firebase-analytics-unity/
+
+# Firebase Analytics for React Native
+firebase-analytics-react-native/
+
+# Firebase Analytics for Cordova
+firebase-analytics-cordova/
+
+# Firebase Analytics for Xamarin
+firebase-analytics-xamarin/
+
+# Firebase Analytics for Unity
+firebase-analytics-unity/
+
+# Firebase Analytics for React Native
+firebase-analytics-react-native/
+
+# Firebase Analytics for Cordova
+firebase-analytics-cordova/
+
+# Firebase Analytics for Xamarin
+firebase-analytics-xamarin/
+
+# Firebase Analytics for Unity
+firebase-analytics-unity/
+
+# Firebase Analytics for React Native
+firebase-analytics-react-native/
+
+# Firebase Analytics for Cordova
+firebase-analytics-cordova/
+
+# Firebase Analytics for Xamarin
+firebase-analytics-xamarin/
+
+# Firebase Analytics for Unity
+firebase-analytics-unity/
+
+# Firebase Analytics for React Native
+firebase-analytics-react-native/
+
+# Firebase Analytics for Cordova
+firebase-analytics-cordova/
+
+# Firebase Analytics for Xamarin
+firebase-analytics-xamarin/
+
+# Firebase Analytics for Unity
+firebase-analytics-unity/
+
+# Firebase Analytics for React Native
+firebase-analytics-react-native/
+
+# Firebase Analytics for Cordova
+firebase-analytics-cordova/
+
+# Firebase Analytics for Xamarin
+firebase-analytics-xamarin/
+
+# Firebase Analytics for Unity
+firebase-analytics-unity/
+
+# Firebase Analytics for React Native
+firebase-analytics-react-native/
+
+# Firebase Analytics for Cordova
+firebase-analytics-cordova/
+
+# Firebase Analytics for Xamarin
+firebase-analytics-xamarin/
+
+# Firebase Analytics for Unity
+firebase-analytics-unity/
+
+# Firebase Analytics for React Native
+firebase-analytics-react-native/
+
+# Firebase Analytics for Cordova
+firebase-analytics-cordova/
+
+# Firebase Analytics for Xamarin
+firebase-analytics-xamarin/
+
+# Firebase Analytics for Unity
+firebase-analytics-unity/
+
+# Firebase Analytics for React Native
+firebase-analytics-react-native/
+
+# Firebase Analytics for Cordova
+firebase-analytics-cordova/
+
+# Firebase Analytics for Xamarin
+firebase-analytics-xamarin/
+
+# Firebase Analytics for Unity
+firebase-analytics-unity/
+
+# Firebase Analytics for React Native
+firebase-analytics-react-native/
+
+# Firebase Analytics for Cordova
+firebase-analytics-cordova/
+
+# Firebase Analytics for Xamarin
+firebase-analytics-xamarin/
+
+# Firebase Analytics for Unity
+firebase-analytics-unity/
+
+# Firebase Analytics for React Native
+firebase-analytics-react-native/
+
+# Firebase Analytics for Cordova
+firebase-analytics-cordova/
+
+# Firebase Analytics for Xamarin
+firebase-analytics-xamarin/
+
+# Firebase Analytics for Unity
+firebase-analytics-unity/
+
+# Firebase Analytics for React Native
+firebase-analytics-react-native/
+
+# Firebase Analytics for Cordova
+firebase-analytics-cordova/
+
+# Firebase Analytics for Xamarin
+firebase-analytics-xamarin/
+
+# Firebase Analytics for Unity
+firebase-analytics-unity/
+
+# Firebase Analytics for React Native
+firebase-analytics-react-native/
+
+# Firebase Analytics for Cordova
+firebase-analytics-cordova/
+
+# Firebase Analytics for Xamarin
+firebase-analytics-xamarin/
+
+# Firebase Analytics for Unity
+firebase-analytics-unity/
+
+# Firebase Analytics for React Native
+firebase-analytics-react-native/
+
+# Firebase Analytics for Cordova
+firebase-analytics-cordova/
+
+# Firebase Analytics for Xamarin
+firebase-analytics-xamarin/
+
+# Firebase Analytics for Unity
+firebase-analytics-unity/
+
+# Firebase Analytics for React Native
+firebase-analytics-react-native/
+
+# Firebase Analytics for Cordova
+firebase-analytics-cordova/
+
+# Firebase Analytics for Xamarin
+firebase-analytics-xamarin/
+
+# Firebase Analytics for Unity
+firebase-analytics-unity/
+
+# Firebase Analytics for React Native
+firebase-analytics-react-native/
+
+# Firebase Analytics for Cordova
+firebase-analytics-cordova/
+
+# Firebase Analytics for Xamarin
+firebase-analytics-xamarin/
+
+# Firebase Analytics for Unity
+firebase-analytics-unity/
+
+# Firebase Analytics for React Native
+firebase-analytics-react-native/
+
+# Firebase Analytics for Cordova
+firebase-analytics-cordova/
+
+# Firebase Analytics for Xamarin
+firebase-analytics-xamarin/
+
+# Firebase Analytics for Unity
+firebase-analytics-unity/
+
+# Firebase Analytics for React Native
+firebase-analytics-react-native/
+
+# Firebase Analytics for Cordova
+firebase-analytics-cordova/
+
+# Firebase Analytics for Xamarin
+firebase-analytics-xamarin/
+
+# Firebase Analytics for Unity
+firebase-analytics-unity/
+
+# Firebase Analytics for React Native
+firebase-analytics-react-native/
+
+# Firebase Analytics for Cordova
+firebase-analytics-cordova/
+
+# Firebase Analytics for Xamarin
+firebase-analytics-xamarin/
+
+# Firebase Analytics for Unity
+firebase-analytics-unity/
+
+# Firebase Analytics for React Native
+firebase-analytics-react-native/
+
+# Firebase Analytics for Cordova
+firebase-analytics-cordova/
+
+# Firebase Analytics for Xamarin
+firebase-analytics-xamarin/
+
+# Firebase Analytics for Unity
+firebase-analytics-unity/
+
+# Firebase Analytics for React Native
+firebase-analytics-react-native/
+
+# Firebase Analytics for Cordova
+firebase-analytics-cordova/
+
+# Firebase Analytics for Xamarin
+firebase-analytics-xamarin/
+
+# Firebase Analytics for Unity
+firebase-analytics-unity/
+
+# Firebase Analytics for React Native
+firebase-analytics-react-native/
+
+# Firebase Analytics for Cordova
+firebase-analytics-cordova/
+
+# Firebase Analytics for Xamarin
+firebase-analytics-xamarin/
+
+# Firebase Analytics for Unity
+firebase-analytics-unity/
+
+# Firebase Analytics for React Native
+firebase-analytics-react-native/
+
+# Firebase Analytics for Cordova
+firebase-analytics-cordova/
+
+# Firebase Analytics for Xamarin
+firebase-analytics-xamarin/
+
+# Firebase Analytics for Unity
+firebase-analytics-unity/
+
+# Firebase Analytics for React Native
+firebase-analytics-react-native/
+
+# Firebase Analytics for Cordova
+firebase-analytics-cordova/
+
+# Firebase Analytics for Xamarin
+firebase-analytics-xamarin/
+
+# Firebase Analytics for Unity
+firebase-analytics-unity/
+
+# Firebase Analytics for React Native
+firebase-analytics-react-native/
+
+# Firebase Analytics for Cordova
+firebase-analytics-cordova/
+
+# Firebase Analytics for Xamarin
+firebase-analytics-xamarin/
+
+# Firebase Analytics for Unity
+firebase-analytics-unity/
+
+# Firebase Analytics for React Native
+firebase-analytics-react-native/
+
+# Firebase Analytics for Cordova
+firebase-analytics-cordova/
+
+# Firebase Analytics for Xamarin
+firebase-analytics-xamarin/
+
+# Firebase Analytics for Unity
+firebase-analytics-unity/
+
+# Firebase Analytics for React Native
+firebase-analytics-react-native/
+
+# Firebase Analytics for Cordova
+firebase-analytics-cordova/
+
+# Firebase Analytics for Xamarin
+firebase-analytics-xamarin/
+
+# Firebase Analytics for Unity
+firebase-analytics-unity/
+
+# Firebase Analytics for React Native
+firebase-analytics-react-native/
+
+# Firebase Analytics for Cordova
+firebase-analytics-cordova/
+
+# Firebase Analytics for Xamarin
+firebase-analytics-xamarin/
+
+# Firebase Analytics for Unity
+firebase-analytics-unity/
+
+# Firebase Analytics for React Native
+firebase-analytics-react-native/
+
+# Firebase Analytics for Cordova
+firebase-analytics-cordova/
+
+# Firebase Analytics for Xamarin
+firebase-analytics-xamarin/
+
+# Firebase Analytics for Unity
+firebase-analytics-unity/
+
+# Firebase Analytics for React Native
+firebase-analytics-react-native/
+
+# Firebase Analytics for Cordova
+firebase-analytics-cordova/
+
+# Firebase Analytics for Xamarin
+firebase-analytics-xamarin/
+
+# Firebase Analytics for Unity
+firebase-analytics-unity/
+
+# Firebase Analytics for React Native
+firebase-analytics-react-native/
+
+# Firebase Analytics for Cordova
+firebase-analytics-cordova/
+
+# Firebase Analytics for Xamarin
+firebase-analytics-xamarin/
+
+# Firebase Analytics for Unity
+firebase-analytics-unity/
+
+# Firebase Analytics for React Native
+firebase-analytics-react-native/
+
+# Firebase Analytics for Cordova
+firebase-analytics-cordova/
+
+# Firebase Analytics for Xamarin
+firebase-analytics-xamarin/
+
+# Firebase Analytics for Unity
+firebase-analytics-unity/
+
+# Firebase Analytics for React Native
+firebase-analytics-react-native/
+
+# Firebase Analytics for Cordova
+firebase-analytics-cordova/
+
+# Firebase Analytics for Xamarin
+firebase-analytics-xamarin/
+
+# Firebase Analytics for Unity
+firebase-analytics-unity/
+
+# Firebase Analytics for React Native
+firebase-analytics-react-native/
+
+# Firebase Analytics for Cordova
+firebase-analytics-cordova/
+
+# Firebase Analytics for Xamarin
+firebase-analytics-xamarin/
+
+# Firebase Analytics for Unity
+firebase-analytics-unity/
+
+# Firebase Analytics for React Native
+firebase-analytics-react-native/
+
+# Firebase Analytics for Cordova
+firebase-analytics-cordova/
+
+# Firebase Analytics for Xamarin
+firebase-analytics-xamarin/
+
+# Firebase Analytics for Unity
+firebase-analytics-unity/
+
+# Firebase Analytics for React Native
+firebase-analytics-react-native/
+
+# Firebase Analytics for Cordova
+firebase-analytics-cordova/
+
+# Firebase Analytics for Xamarin
+firebase-analytics-xamarin/
+
+# Firebase Analytics for Unity
+firebase-analytics-unity/
+
+# Firebase Analytics for React Native
+firebase-analytics-react-native/
+
+# Firebase Analytics for Cordova
+firebase-analytics-cordova/
+
+# Firebase Analytics for Xamarin
+firebase-analytics-xamarin/
+
+# Firebase Analytics for Unity
+firebase-analytics-unity/
+
+# Firebase Analytics for React Native
+firebase-analytics-react-native/
+
+# Firebase Analytics for Cordova
+firebase-analytics-cordova/
+
+# Firebase Analytics for Xamarin
+firebase-analytics-xamarin/
+
+# Firebase Analytics for Unity
+firebase-analytics-unity/
+
+# Firebase Analytics for React Native
+firebase-analytics-react-native/
+
+# Firebase Analytics for Cordova
+firebase-analytics-cordova/
+
+# Firebase Analytics for Xamarin
+firebase-analytics-xamarin/
+
+# Firebase Analytics for Unity
+firebase-analytics-unity/
+
+# Firebase Analytics for React Native
+firebase-analytics-react-native/
+
+# Firebase Analytics for Cordova
+firebase-analytics-cordova/
+
+# Firebase Analytics for Xamarin
+firebase-analytics-xamarin/
+
+# Firebase Analytics for Unity
+firebase-analytics-unity/
+
+# Firebase Analytics for React Native
+firebase-analytics-react-native/
+
+# Firebase Analytics for Cordova
+firebase-analytics-cordova/
+
+# Firebase Analytics for Xamarin
+firebase-analytics-xamarin/
+
+# Firebase Analytics for Unity
+firebase-analytics-unity/
+
+# Firebase Analytics for React Native
+firebase-analytics-react-native/
+
+# Firebase Analytics for Cordova
+firebase-analytics-cordova/
+
+# Firebase Analytics for Xamarin
+firebase-analytics-xamarin/
+
+# Firebase Analytics for Unity
+firebase-analytics-unity/
+
+# Firebase Analytics for React Native
+firebase-analytics-react-native/
+
+# Firebase Analytics for Cordova
+firebase-analytics-cordova/
+
+# Firebase Analytics for Xamarin
+firebase-analytics-xamarin/
+
+# Firebase Analytics for Unity
+firebase-analytics-unity/
+
+# Firebase Analytics for React Native
+firebase-analytics-react-native/
+
+# Firebase Analytics for Cordova
+firebase-analytics-cordova/
+
+# Firebase Analytics for Xamarin
+firebase-analytics-xamarin/
+
+# Firebase Analytics for Unity
+firebase-analytics-unity/
+
+# Firebase Analytics for React Native
+firebase-analytics-react-native/
+
+# Firebase Analytics for Cordova
+firebase-analytics-cordova/
+
+# Firebase Analytics for Xamarin
+firebase-analytics-xamarin/
+
+# Firebase Analytics for Unity
+firebase-analytics-unity/
+
+# Firebase Analytics for React Native
+firebase-analytics-react-native/
+
+# Firebase Analytics for Cordova
+firebase-analytics-cordova/
+
+# Firebase Analytics for Xamarin
+firebase-analytics-xamarin/
+
+# Firebase Analytics for Unity
+firebase-analytics-unity/
+
+# Firebase Analytics for React Native
+firebase-analytics-react-native/
+
+# Firebase Analytics for Cordova
+firebase-analytics-cordova/
+
+# Firebase Analytics for Xamarin
+firebase-analytics-xamarin/
+
+# Firebase Analytics for Unity
+firebase-analytics-unity/
+
+# Firebase Analytics for React Native
+firebase-analytics-react-native/
+
+# Firebase Analytics for Cordova
+firebase-analytics-cordova/
+
+# Firebase Analytics for Xamarin
+firebase-analytics-xamarin/
+
+# Firebase Analytics for Unity
+firebase-analytics-unity/
+
+# Firebase Analytics for React Native
+firebase-analytics-react-native/
+
+# Firebase Analytics for Cordova
+firebase-analytics-cordova/
+
+# Firebase Analytics for Xamarin
+firebase-analytics-xamarin/
+
+# Firebase Analytics for Unity
+firebase-analytics-unity/
+
+# Firebase Analytics for React Native
+firebase-analytics-react-native/
+
+# Firebase Analytics for Cordova
+firebase-analytics-cordova/
+
+# Firebase Analytics for Xamarin
+firebase-analytics-xamarin/
+
+# Firebase Analytics for Unity
+firebase-analytics-unity/
+
+# Firebase Analytics for React Native
+firebase-analytics-react-native/
+
+# Firebase Analytics for Cordova
+firebase-analytics-cordova/
+
+# Firebase Analytics for Xamarin
+firebase-analytics-xamarin/
+
+# Firebase Analytics for Unity
+firebase-analytics-unity/
+
+# Firebase Analytics for React Native
+firebase-analytics-react-native/
+
+# Firebase Analytics for Cordova
+firebase-analytics-cordova/
+
+# Firebase Analytics for Xamarin
+firebase-analytics-xamarin/
+
+# Firebase Analytics for Unity
+firebase-analytics-unity/
+
+# Firebase Analytics for React Native
+firebase-analytics-react-native/
+
+# Firebase Analytics for Cordova
+firebase-analytics-cordova/
+
+# Firebase Analytics for Xamarin
+firebase-analytics-xamarin/
+
+# Firebase Analytics for Unity
+firebase-analytics-unity/
+
+# Firebase Analytics for React Native
+firebase-analytics-react-native/
+
+# Firebase Analytics for Cordova
+firebase-analytics-cordova/
+
+# Firebase Analytics for Xamarin
+firebase-analytics-xamarin/
+
+# Firebase Analytics for Unity
+firebase-analytics-unity/
+
+# Firebase Analytics for React Native
+firebase-analytics-react-native/
+
+# Firebase Analytics for Cordova
+firebase-analytics-cordova/
+
+# Firebase Analytics for Xamarin
+firebase-analytics-xamarin/
+
+# Firebase Analytics for Unity
+firebase-analytics-unity/
+
+# Firebase Analytics for React Native
+firebase-analytics-react-native/
+
+# Firebase Analytics for Cordova
+firebase-analytics-cordova/
+
+# Firebase Analytics for Xamarin
+firebase-analytics-xamarin/
+
+# Firebase Analytics for Unity
+firebase-analytics-unity/
+
+# Firebase Analytics for React Native
+firebase-analytics-react-native/
+
+# Firebase Analytics for Cordova
+firebase-analytics-cordova/
+
+# Firebase Analytics for Xamarin
+firebase-analytics-xamarin/
+
+# Firebase Analytics for Unity
+firebase-analytics-unity/
+
+#
