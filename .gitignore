@@ -14,9 +14,6 @@ out/
 app/release/
 app/debug/
 
-# Kotlin
-*.kt
-*.kts
 
 # OS
 .DS_Store
